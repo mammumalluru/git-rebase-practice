@@ -1,1 +1,15 @@
-f
+git rebase-------it will add the child branch commits to parent branch base to keep the linear history
+no extra merge commit,history looks professional.but commit id's will change
+
+It moves your branch commits on top of another branch.
+
+No merge commit. History becomes straight.
+
+Git Merge---------- merge two branches but extra merge commit will create
+commit id's will not change
+
+Merge = Combine branches
+👉 Rebase = Re-arrange commits
+
+Git merge combines branches and preserves history by creating a merge commit.
+Git rebase rewrites history by replaying commits on top of another branch to maintain a clean linear history.
